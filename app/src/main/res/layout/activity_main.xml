@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/abt_btn"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/crossfit"
+                android:gravity="bottom"
+                android:onClick="about_btn"
+                android:text="About CROSSFIT"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/chest_btn"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+
+                android:adjustViewBounds="true"
+                android:background="@drawable/chest"
+                android:gravity="bottom"
+                android:onClick="chest_btn"
+                android:paddingTop="10dp"
+                android:scaleType="centerCrop"
+                android:text="CHEST "
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/abs_btn"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+
+                android:adjustViewBounds="true"
+                android:background="@drawable/abs"
+                android:gravity="bottom"
+                android:onClick="abs_btn"
+                android:paddingTop="10dp"
+                android:scaleType="centerCrop"
+                android:text="ABS"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/biceps_btn"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+
+                android:adjustViewBounds="true"
+                android:background="@drawable/biceps"
+                android:gravity="bottom"
+                android:onClick="biceps_btn"
+                android:paddingTop="10dp"
+                android:scaleType="centerCrop"
+                android:text="BICEPS"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/shoulder_btn"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+
+                android:adjustViewBounds="true"
+                android:background="@drawable/shoulder"
+                android:gravity="bottom"
+                android:onClick="shoulder_btn"
+                android:paddingTop="10dp"
+                android:scaleType="centerCrop"
+                android:text="SHOULDERS"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/cardio_btn"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+
+                android:adjustViewBounds="true"
+                android:background="@drawable/cardio"
+                android:gravity="bottom"
+                android:onClick="cardio_btn"
+                android:paddingTop="10dp"
+                android:scaleType="centerCrop"
+                android:text="CARDIO"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/maps_btn"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+
+                android:adjustViewBounds="true"
+                android:background="@drawable/map"
+                android:gravity="bottom"
+                android:onClick="maps_btn"
+                android:paddingTop="10dp"
+                android:scaleType="centerCrop"
+                android:text="GOOGLE MAPS"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
